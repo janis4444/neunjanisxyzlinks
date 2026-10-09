@@ -59,6 +59,7 @@
             gap: 15px;
             margin: 25px 0;
             flex-wrap: wrap;
+            margin-bottom: 40px;
         }
 
         .social-icon {
@@ -122,8 +123,13 @@
         .link-button:hover {
             transform: translateY(-2px);
             box-shadow: 0 0 80px rgba(90, 220, 220, 0.8);
+            background: rgba(220, 248, 242, 1);
         }
         
+        .link-button:hover .button-text {
+            color: rgb(28, 46, 50);
+        }
+
         .button-text {
             font-size: 12px;
             letter-spacing: 2px;
