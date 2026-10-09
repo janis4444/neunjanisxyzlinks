@@ -63,8 +63,8 @@
         }
 
         .social-icon {
-            width: clamp(20px, 6vw, 45px);
-            height: clamp(20px, 6vw, 45px);
+            width: clamp(28px, 6vw, 45px);
+            height: clamp(28px, 6vw, 45px);
             display: flex;
             align-items: center;
             justify-content: center;
