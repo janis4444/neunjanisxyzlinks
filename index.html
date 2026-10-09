@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="favicon-signature.png">
     
     <title>🅹🅰︎🅽🅸🆂</title>
     <style>
@@ -71,8 +70,8 @@
         }
 
         .social-icon {
-            width: clamp(28px, 6vw, 45px);
-            height: clamp(28px, 6vw, 45px);
+            width: clamp(20px, 6vw, 45px);
+            height: clamp(20px, 6vw, 45px);
             display: flex;
             align-items: center;
             justify-content: center;
@@ -132,6 +131,16 @@
             transform: translateY(-2px);
             box-shadow: 0 0 80px rgba(90, 220, 220, 0.8);
         }
+        
+        .button-text {
+            font-size: 12px;
+            letter-spacing: 2px;
+            color: white;
+            margin-bottom: 5px;
+            margin-top: 5px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
 
         .divider {
             height: 1px;
@@ -159,7 +168,7 @@
 <body>
     <div class="container">
         <!-- Bild -->
-        <img src="https://via.placeholder.com/120/ffffff/ffffff?text=JANIS" alt="Profilbild" class="profile-pic">
+        <img src="pfp4.png" alt="Profilbild" class="profile-pic">
 
         <!-- Obe -->
         <div class="name">🅹🅰︎🅽🅸🆂</div>
@@ -190,16 +199,16 @@
 </svg> </a>
         </div>
 
-        <!-- Discord -->
-        <div class="discord-text">yolo</div>
+        <!-- Textfeld -->
+        <div class="discord-text"></div>
 
         <div class="divider"></div>
 
         <!-- Contact Sachen -->
-        <div class="section-title">Contact</div>
-        <a href="mailto:deine-email@example.com" class="link-button">
+        <div class="section-title"></div>
+        <a href="mailto:contact@neunjanis.xyz" class="link-button">
            
-            <span>Contact Me</span>
+            <span class="button-text">Contact</span>
         </a>
     </div>
 </body>
